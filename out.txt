@@ -1,0 +1,82 @@
+=== HOMEPAGE ===
+Homepage Content
+Meta Title: End-to-End Cybersecurity, Cloud & IT Solutions - I AM IT
+Meta Description: Discover I AM IT – a global IT services provider offering cybersecurity, cloud, infrastructure, and digital transformation solutions across India, UAE, Qatar, and Oman.
+Banner Headline & Description 1:
+Experience Next-Gen IT Excellence
+We help businesses thrive with scalable, secure, and intelligent IT solutions tailored to modern demands.
+Banner Headline & Description 2:
+Your Trusted IT Transformation Partner
+Delivering end-to-end technology services that align with your strategy, accelerate growth, and ensure operational excellence.
+Banner Headline & Description 3:
+Global Expertise. Local Support.
+Combining regional presence with international standards to deliver consistent, high-impact IT solutions across your operations.
+H1: IT & Cybersecurity Solutions Provider
+Founded in 2019 and headquartered in Hyderabad, India, I AM IT Technologies is a global IT solutions provider delivering end-to-end services across cybersecurity, cloud, infrastructure, digital transformation, and consulting. With a strong international presence, including our regional HQ in Dubai and branches in Qatar and Oman, we empower businesses to innovate securely in an ever-evolving digital landscape.
+H2: Our Services & Solutions
+Cybersecurity
+Comprehensive security services including endpoint protection, firewalls, email security, and compliance to defend against evolving cyber threats.
+Cloud Solutions
+Cloud migration, management, and security services designed to optimize performance and support digital transformation across Azure and M365.
+IT Infrastructure
+Robust deployment, monitoring, and infrastructure management services ensuring uptime, scalability, and operational efficiency.
+Microsoft Solutions
+Expert implementation of Active Directory, Exchange, Microsoft 365, and hybrid environments for secure enterprise collaboration.
+Networking & NGN
+Advanced networking solutions including SD-WAN, SASE, and routing to enable fast, secure, and reliable connectivity.
+Digital Transformation
+Accelerate innovation with data analytics, automation, and customer experience solutions tailored to modern business models.
+Security Intelligence
+SIEM, SOAR, and identity threat detection tools integrated for real-time visibility, response, and risk management.
+Managed Services
+End-to-end managed IT services including GNOC, SOC, RIMM, AMC, and facility management to reduce downtime and boost performance.
+H3: Our Approach
+At I AM IT Technologies, we believe in more than just delivering services—we build resilient, scalable, and secure ecosystems tailored to your business goals. Our approach combines:
+Gap Assessment & Strategy Design
+Customized Implementation & Automation
+Ongoing Optimization & Compliance Readiness
+User Enablement & Continuous Support
+This structured, risk-aware, and outcome-driven method ensures long-term value and technology alignment across your organization.
+H4: Clientele
+Add clients logos 
+H3: Why Choose Us?
+At I AM IT Technologies, we don’t just deliver services—we build long-term value. Our expertise, strategic alliances, and customer-first approach enable us to provide secure, scalable, and business-aligned IT solutions that help enterprises stay ahead in a rapidly changing digital world.
+24/7 In-house GNOC & Hybrid SOC
+Strategic Alliances with Leading OEMs
+CrowdStrike Technology Advocate Partner – META Region
+Double-digit YoY growth with 25+ global enterprise, government, and semi-government clients
+Industry-recognized delivery backed by domain-specific SMEs
+H4: Security & Compliance Frameworks
+At I A M IT, we support businesses in meeting global security and privacy standards with tailored, end-to-end implementation services.
+Add logos of compliance frameworks
+H5: We’re Present Globally
+📍 Dubai | 📍 Doha | 📍 Muscat | 📍 Hyderabad
+H5: Partner Ecosystem
+Add partner logos 
+
+=== ABOUT US ===
+About Us Content
+Meta Title: About Us - Global IT & Cybersecurity Solutions - I AM IT
+Meta Description: Learn about I AM IT Technologies – a global leader in IT services, cybersecurity, and digital transformation, with operations across India, UAE, Qatar, and Oman.
+H1: Who We Are?
+I AM IT Technologies is a globally recognized IT solutions and services provider, founded in 2019 and headquartered in Hyderabad, India. With a strong regional presence across the UAE, Qatar, and Oman, we specialize in delivering end-to-end technology solutions that enable enterprises to evolve, secure, and scale in today’s digital economy.
+Our services span across cybersecurity, cloud, infrastructure management, digital transformation, and Microsoft enterprise solutions. Backed by experienced professionals, strategic OEM alliances, and a customer-centric approach, we deliver measurable outcomes that align technology investments with business goals.
+H2: Our Mission
+To empower enterprises with innovative, secure, and future-ready IT solutions that drive growth, resilience, and competitive advantage.
+H2: Our Vision
+To be a trusted technology partner of choice for global organizations navigating digital transformation and cybersecurity challenges.
+H3: Our Values
+Integrity: Ethical practices and transparent relationships with clients and partners.
+Innovation: Leveraging the latest technologies to address modern business needs.
+Excellence: Commitment to high-quality service delivery and continuous improvement.
+Partnership: Building long-term collaborations for mutual success.
+H4: Growth in Numbers 
+10+ Years of Industry Experience
+20+ Skilled Team Members
+200+ Projects Successfully Delivered
+H4: Achievements Over The Years
+2019 – Foundation YearEstablished in Hyderabad, India, marking the start of our journey in delivering reliable IT solutions.
+2022 – Global EstablishmentExpanded internationally with the opening of our regional headquarters in Dubai, UAE.
+2023 – Global Expansion & GrowthAchieved double-digit YoY growth and onboarded 25+ new enterprise, government, and semi-government clients.
+2024 – Team Growth & RecognitionExpanded the team with 15+ new hires and recognized by CrowdStrike as a Technology Advocate Partner – META Region.
+2025 – Aspirations & Strategic CollaborationsFocused on onboarding strategic enterprise clients and deepening alliances with global cybersecurity technology partners.

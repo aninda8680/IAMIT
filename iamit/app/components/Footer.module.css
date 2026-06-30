@@ -1,0 +1,80 @@
+.footer {
+  background: var(--bg-primary);
+  border-top: 1px solid var(--border-subtle);
+  padding-top: 64px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1.5fr;
+  gap: 3rem;
+  padding-bottom: 56px;
+}
+
+.logoText {
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  color: var(--accent);
+  margin-bottom: 0.75rem;
+}
+
+.tagline {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+  max-width: 280px;
+}
+
+.offices { display: flex; flex-direction: column; gap: 0.5rem; }
+
+.office {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+.office em { color: var(--text-muted); font-style: normal; }
+
+.dot {
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+  flex-shrink: 0;
+}
+
+.colTitle {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--text-primary);
+  margin-bottom: 1.25rem;
+}
+
+.list { list-style: none; display: flex; flex-direction: column; gap: 0.65rem; }
+
+.footLink {
+  font-size: 0.875rem;
+  color: var(--text-secondary);
+  transition: color 0.2s;
+}
+.footLink:hover { color: var(--accent); }
+
+.contactLine { font-size: 0.875rem; color: var(--text-secondary); margin-bottom: 0.4rem; }
+
+.bottom {
+  border-top: 1px solid var(--border-subtle);
+  padding: 1.25rem 0;
+}
+.bottom p { font-size: 0.8rem; color: var(--text-muted); }
+
+@media (max-width: 900px) {
+  .grid { grid-template-columns: 1fr 1fr; }
+  .brand { grid-column: 1 / -1; }
+}
+@media (max-width: 520px) {
+  .grid { grid-template-columns: 1fr; }
+}

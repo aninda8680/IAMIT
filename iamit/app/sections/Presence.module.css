@@ -1,0 +1,96 @@
+.section { border-bottom: 1px solid var(--border-subtle); }
+
+.header { text-align: center; margin-bottom: 3.5rem; }
+.header .section-subtitle { margin: 0 auto; }
+.header .divider { margin: 0 auto 1.5rem; }
+
+.offices {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.25rem;
+  margin-bottom: 4rem;
+}
+
+.officeCard {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: 10px;
+  padding: 1.75rem 1.5rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.officeCard:hover {
+  border-color: var(--border);
+  box-shadow: 0 4px 16px rgba(99,42,99,0.08);
+}
+
+.dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+  margin-bottom: 1rem;
+}
+
+.officeCity {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.officeCountry {
+  font-size: 0.8rem;
+  color: var(--accent);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.officeRole {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.officeInfo {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  line-height: 1.55;
+}
+
+.frameworks { text-align: center; }
+
+.fwLabel {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+  margin-bottom: 1.25rem;
+}
+
+.fwGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.fwTag {
+  padding: 0.45rem 1.1rem;
+  border: 1px solid var(--border-subtle);
+  border-radius: 100px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  background: var(--bg-card);
+  transition: border-color 0.2s, color 0.2s, background 0.2s;
+}
+.fwTag:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: rgba(99,42,99,0.06);
+}
+
+@media (max-width: 900px) { .offices { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 520px)  { .offices { grid-template-columns: 1fr; } }

@@ -1,0 +1,208 @@
+.navWrapper {
+  position: fixed;
+  top: 1.5rem;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  padding: 0 1.5rem;
+  pointer-events: none;
+}
+
+.header {
+  pointer-events: auto;
+  width: 100%;
+  max-width: 1100px;
+  background: #ffffff;
+  border-radius: 100px;
+  padding: 0.6rem 1rem 0.6rem 1.5rem;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08), 0 1px 3px rgba(0,0,0,0.04);
+  border: 1px solid rgba(0,0,0,0.04);
+  transition: all 0.3s ease;
+}
+
+/* We don't necessarily need a different scroll state if it's always a pill, but we can make it slightly more compact */
+.scrolled {
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.12);
+}
+
+.inner {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 1rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logoText {
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: var(--text-primary);
+  letter-spacing: 0.02em;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.link {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  transition: color 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  padding: 0.5rem 0;
+}
+.link:hover { color: var(--accent); }
+
+.chevronUp { transform: rotate(180deg); }
+.link svg { transition: transform 0.3s; }
+
+/* Dropdown styling */
+.dropdownWrap {
+  position: relative;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%) translateY(15px);
+  background: var(--bg-primary);
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+  padding: 0.5rem;
+  width: 220px;
+  box-shadow: 0 10px 40px -10px rgba(0,0,0,0.1);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.dropdownActive {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateX(-50%) translateY(5px);
+}
+
+.dropLink {
+  display: block;
+  padding: 0.65rem 1rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  border-radius: 8px;
+  transition: background 0.2s, color 0.2s;
+}
+.dropLink:hover {
+  background: var(--bg-card);
+  color: var(--accent);
+}
+
+.dropDivider {
+  height: 1px;
+  background: var(--border-subtle);
+  margin: 0.5rem 0;
+}
+
+.dropLinkAll {
+  display: block;
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--accent);
+  text-align: center;
+  transition: opacity 0.2s;
+}
+.dropLinkAll:hover { opacity: 0.7; }
+
+
+.rightSide {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.mobileContact { display: none; }
+.desktopContact { display: block; }
+
+.burger {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+}
+
+@media (max-width: 768px) {
+  .navWrapper { padding: 1rem; }
+  .header { border-radius: 20px; }
+  .scrolled { max-width: 100%; border-radius: 20px; padding: 0.75rem 1.25rem; }
+  
+  .desktopContact { display: none; }
+  .burger { display: flex; }
+
+  .nav {
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    right: 0;
+    background: rgba(255,255,255,0.98);
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.5rem;
+    gap: 1.5rem;
+    border-radius: 20px;
+    border: 1px solid rgba(99, 42, 99, 0.15);
+    backdrop-filter: blur(16px);
+    box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: all 0.3s;
+  }
+  .navOpen {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  .mobileContact { display: block; width: 100%; margin-top: 1rem; }
+  .mobileContact a { width: 100%; justify-content: center; }
+
+  .dropdownWrap { width: 100%; }
+  .dropdown {
+    position: static;
+    transform: none;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+    padding: 0 0 0 1rem;
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+  }
+  .dropdownActive {
+    max-height: 400px;
+    margin-top: 0.5rem;
+  }
+}
