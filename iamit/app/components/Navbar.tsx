@@ -74,7 +74,7 @@ export default function Navbar() {
             
             {/* Mobile Contact Button */}
             <div className={styles.mobileContact}>
-              <Link href="/#contact" className="btn-primary" onClick={() => setMenuOpen(false)}>
+              <Link href="/#contact" className={styles.navBtn} onClick={() => setMenuOpen(false)}>
                 Get in Touch
               </Link>
             </div>
@@ -82,13 +82,13 @@ export default function Navbar() {
 
           <div className={styles.rightSide}>
             <div className={styles.desktopContact}>
-              <Link href="/#contact" className="btn-primary" style={{ padding: "0.5rem 1.25rem", fontSize: "0.85rem" }}>
+              <Link href="/#contact" className={styles.navBtn}>
                 Get in Touch
               </Link>
             </div>
 
             <button className={styles.burger} onClick={() => setMenuOpen(!menuOpen)} aria-label="Toggle menu">
-              {menuOpen ? <X size={24} color="var(--text-primary)" /> : <Menu size={24} color="var(--text-primary)" />}
+              {menuOpen ? <X size={24} color="#ffffff" /> : <Menu size={24} color="#ffffff" />}
             </button>
           </div>
         </div>
